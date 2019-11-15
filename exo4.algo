@@ -1,0 +1,18 @@
+ALGO : exo4
+//BUT	: Afficher le TTC plus les libellés
+//ENT	: Nom nombre prix
+//SOR	: TTC et libellés
+
+var : nom : CHAINE
+var : nb  : ENTIER
+	  prix: REEL
+
+DEBUT
+	ECRIRE "Nom du produit :"
+	LIRE nom
+	ECRIRE "Quantité :"
+	LIRE nb
+	ECRIRE "Prix :"
+	LIRE prix
+	ECRIRE "Produit : ", nom, " | Quantité : ", nb, " | HT : ", (prix*nb), " | TTC : ", (prix*1,2)
+FIN
