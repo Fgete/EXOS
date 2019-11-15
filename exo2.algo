@@ -1,0 +1,12 @@
+ALGO : exo2
+//BUT	: Renvoyer le carré d'un entier
+//ENT	: Un entier
+//SOR	: Le carré du nombre
+
+var : nb : ENTIER
+
+DEBUT
+	ECRIRE "Entrez un entier :"
+	LIRE nb
+	ECRIRE nb*nb
+FIN
