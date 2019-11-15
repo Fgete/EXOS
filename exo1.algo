@@ -1,0 +1,13 @@
+ALGO : exo1
+//BUT	: Renvoyer un double
+//ENT	: Un entier
+//SOR	: L'entier et le double
+
+var : val, double : ENTIER
+
+DEBUT
+	val <- 231
+	double <- val * 2
+	ECRIRE val
+	ECRIRE double
+FIN
