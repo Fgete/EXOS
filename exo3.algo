@@ -1,0 +1,12 @@
+ALGO : exo3
+//BUT	: Renvoyer un charmant Bonjour
+//ENT	: Nom
+//SOR	: Charmant Bonjour
+
+var : nom : CHAINE
+
+DEBUT
+	ECRIRE "Entrez votre nom :"
+	LIRE nom
+	ECRIRE "Bonjour ", nom
+FIN
